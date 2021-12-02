@@ -62,8 +62,8 @@ top_5<-touring_geo%>%
 top_5
 
 kable(top_5, caption = "Top 5 Touring Locations") %>%
-  kable_styling(latex_options = "striped")%>%
   row_spec(1:5, background = "#Cab5dc")%>%
+  kable_styling(latex_options = "striped")%>%
   scroll_box(width = "600px", height="350px")
 
 #Number of studio albums and when
@@ -132,8 +132,8 @@ top_ten <- get_artist_top_tracks(
 colnames(top_ten) = c("Song", "Album")
 
 kable(top_ten, caption = "Top 10 Tracks") %>%
-        kable_styling(latex_options = "striped")%>%
-        row_spec(1:10,background = "#Cab5dc")
+  row_spec(c(1,3,5,7,9),background = "#Cab5dc")%>%
+  kable_styling(latex_options = "striped")
 
 
 
