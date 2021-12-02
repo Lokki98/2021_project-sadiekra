@@ -121,6 +121,21 @@ album_dance <- ggplot(petty_filter, aes(x=danceability, fill=album_wrap,
     facet_wrap(~ album_wrap)
 album_dance
 
+#Top 10 hits of the career
+top_ten <- get_artist_top_tracks(
+  id= "4tX2TplrkIP4v05BNC903e",
+  market = "US",
+  authorization = get_spotify_access_token(),
+  include_meta_info = FALSE
+)%>%
+  select(name, album.name)
+colnames(top_ten) = c("Song", "Album")
+
+kable(top_ten, caption = "Top 10 Tracks") %>%
+        kable_styling(latex_options = "striped")%>%
+        row_spec(1:10,background = "#Cab5dc")
+
+
 
 
 

@@ -142,6 +142,20 @@ ggplotly(valence_plot, tooltip=c("text"))
 ```
 
 ### Top 10 Hits
+```{r}
+top_ten <- get_artist_top_tracks(
+  id= "4tX2TplrkIP4v05BNC903e",
+  market = "US",
+  authorization = get_spotify_access_token(),
+  include_meta_info = FALSE
+)%>%
+  select(name, album.name)
+colnames(top_ten) = c("Song", "Album")
+
+kable(top_ten, caption = "Top 10 Tracks") %>%
+        row_spec(c(1,3,5,7,9),background = "#Cab5dc")%>%
+        kable_styling(latex_options = "striped")
+```
 ### Most Used Lyrics
 ## Where Did They Tour?
 
