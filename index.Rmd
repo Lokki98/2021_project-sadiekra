@@ -151,6 +151,10 @@ top_ten <- get_artist_top_tracks(
 )%>%
   select(name, album.name)
 colnames(top_ten) = c("Song", "Album")
+top_ten
+```
+
+```{r}
 
 kable(top_ten, caption = "Top 10 Tracks") %>%
         row_spec(c(1,3,5,7,9),background = "#Cab5dc")%>%
