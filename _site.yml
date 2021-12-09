@@ -1,7 +1,7 @@
 output_dir: 'docs'
 output:
   html_document:
-    theme: pulse  # choose your theme here: https://bootswatch.com/
+    theme: vapor  # choose your theme here: https://bootswatch.com/vapor/
     highlight: textmate
     mathjax: null
     toc: true
