@@ -93,6 +93,7 @@ kable_styling(latex_options = "striped")%>%
 number_albums <- count(album_filter)
 number_albums
 ```
+The band put out a total of 19 studio albums which includes live and deluxe versions. This does not include solo albums put out by Tom Petty, though they should be considered due to band members playing on those albums and fans associating both band and solo work together.
 
 ### Danceability 
 ```{r}
@@ -115,6 +116,7 @@ album_dance <- ggplot(petty_filter, aes(x=danceability, fill=album_wrap,
     facet_wrap(~ album_wrap)
 album_dance
 ```
+"Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable." (Plantinga, 2018). This one surprised me most because I expected "Damn The Torpedoes" to have the highest danceability. This album was a breakthrough album with many upbeat, well-known songs. But looking at this, it seems like "She's the One" and "Hypnotic Eye" have the highest throughout their albums. This reinforces the idea that there is more to songs than just being a fun or upbeat sound.
 
 ### Valence
 ```{r}
@@ -139,6 +141,7 @@ valence_plot <- ggplot(petty_valence, aes(x = reorder(track_name, -valence),
   ylab("Valence")
 ggplotly(valence_plot, tooltip=c("text"))
 ```
+Valence is "a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry)." (Plantinga, 2018) These results are not surprising because they all are upbeat tempos with generally happy lyrics.
 
 ### Top 10 Hits
 ```{r}
@@ -159,6 +162,8 @@ kable(top_ten, caption = "Top 10 Tracks") %>%
         row_spec(c(1,3,5,7,9),background = "#Cab5dc")%>%
         kable_styling(latex_options = "striped")
 ```
+The top 10 tracks to be found are what was expected. All songs except for "Christmas All Over Again" appear on the Greatest Hits album and were released as singles for their respective albums. 
+
 ## Where Did They Tour?
 
 ### Geocode locations
@@ -194,19 +199,19 @@ kable(top_5, caption = "Top 5 Touring Locations") %>%
   row_spec(1:5, background = "#Cab5dc")%>%
   scroll_box(width = "600px", height="350px")
 ```
-
+The top touring locations were found to be NYC, San Francisco, Philadelphia, West Hollywood, and London. One of the interesting parts of this information is that the two top cities were visited twice as many times as the next three. This would make sense though due to New York's large population and many concert venues. As for California, the band became what they were there after relocating from Gainsville, Florida. You can hear this place influence in many of their songs, and now see that they always toured back home.
 
 # Conclusions
 
-The Spotify API allows for a better understanding of the artists we love in more ways than just listening. By using R, I was able to gain a new understanding of my favorite artist and learn ways to interpret data. By visualizing the places Tom Petty toured, fans can see how far his influence reached. Making playlists for new listeners also becomes easier by assessing what kind of listener they are. If they like hits that make you happy, I would recommend them to listen to "Don't do me Like That." One of the drawbacks of this project though is the singularity of artists. Tom Petty, and many other artists, put out music under a solo label in addition to their band. Unless you merge the data frames, you only get a view of part of their work. In order to get a full look at Tom's music, you would have to merge his solo work, band work, and "Mudcrutch" work. Overall though, this API is very useful and very unique to work with. 
+The Spotify API allows for a better understanding of the artists we love in more ways than just listening. By using R, I was able to gain a new understanding of my favorite artist and learn ways to interpret data. Visualizing the places Tom Petty toured allows fans to see how far his influence reached. Making playlists for new listeners also becomes easier by assessing what kind of listener they are. If they like hits that make you happy, I would recommend them to listen to "Don't do me Like That." One of the drawbacks of this project though is the singularity of artists. Tom Petty, and many other artists, put out music under a solo label in addition to their band. Unless you merge the data frames, you only get a view of part of their work. In order to get a full look at Tom's music, you would have to merge his solo work, band work, and "Mudcrutch" work. Overall though, this API is very useful and very unique to work with. 
 
 # References
 
-* https://www.thepettyarchives.com/archives/miscellany/performances/setlists
-* https://www.rdocumentation.org/packages/spotifyr/versions/2.2.1 
-* https://github.com/thomasp85/ggraph
-* https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/
-* https://www.r-graph-gallery.com/335-custom-ggraph-dendrogram.html
-* https://github.com/charlie86/spotifyr
-
+*Aimee, W. (n.d.). Tour Dates and Setlists - The Petty Archives. Retrieved December 9, 2021, from www.thepettyarchives.com website: https://www.thepettyarchives.com/archives/miscellany/performances/setlists
+*charlie86. (2021, December 2). spotifyr. Retrieved December 9, 2021, from GitHub website: https://github.com/charlie86/spotifyr
+*DataCamp. (n.d.). spotifyr package - RDocumentation. Retrieved December 9, 2021, from www.rdocumentation.org website: https://www.rdocumentation.org/packages/spotifyr/versions/2.2.1
+*Holtz, Y. (2018). Dendrogram customization with R and ggraph. Retrieved December 9, 2021, from www.r-graph-gallery.com website: https://www.r-graph-gallery.com/335-custom-ggraph-dendrogram.html
+*Pedersen, T. L. (2021, December 2). ggraph. Retrieved December 9, 2021, from GitHub website: https://github.com/thomasp85/ggraph
+*Plantinga, B. (2018, April 29). What do Spotify’s audio features tell us about this year’s Eurovision Song Contest? Retrieved from Medium website: https://medium.com/@boplantinga/what-do-spotifys-audio-features-tell-us-about-this-year-s-eurovision-song-contest-66ad188e112a
+*Statista. (2018). Spotify users - subscribers in 2018 | Statista. Retrieved from Statista website: https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/
 
