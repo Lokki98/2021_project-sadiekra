@@ -16,7 +16,6 @@ Questions to be addressed:
 * What is the danceability of his songs?
 * How positive are their songs?
 * What are the top 10 hits of their career?
-* What are the most used lyrics?
 * Where has the band toured?
 * What are the top 5 places they have toured?
 
@@ -160,7 +159,6 @@ kable(top_ten, caption = "Top 10 Tracks") %>%
         row_spec(c(1,3,5,7,9),background = "#Cab5dc")%>%
         kable_styling(latex_options = "striped")
 ```
-### Most Used Lyrics
 ## Where Did They Tour?
 
 ### Geocode locations
@@ -200,9 +198,7 @@ kable(top_5, caption = "Top 5 Touring Locations") %>%
 
 # Conclusions
 
-[~200 words]
-
-Clear summary adequately describing the results and putting them in context. Discussion of further questions and ways to continue investigation.
+The Spotify API allows for a better understanding of the artists we love in more ways than just listening. By using R, I was able to gain a new understanding of my favorite artist and learn ways to interpret data. By visualizing the places Tom Petty toured, fans can see how far his influence reached. Making playlists for new listeners also becomes easier by assessing what kind of listener they are. If they like hits that make you happy, I would recommend them to listen to "Don't do me Like That." One of the drawbacks of this project though is the singularity of artists. Tom Petty, and many other artists, put out music under a solo label in addition to their band. Unless you merge the data frames, you only get a view of part of their work. In order to get a full look at Tom's music, you would have to merge his solo work, band work, and "Mudcrutch" work. Overall though, this API is very useful and very unique to work with.
 
 # References
 

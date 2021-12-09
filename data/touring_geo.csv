@@ -73,7 +73,7 @@
 "Wednesday, September 14, 1977",Santa Monica Civic Auditorium,"Santa Monica, California",,Opening for Be Bop Deluxe,34.0194704,-118.4912273
 "Thursday, September 15, 1977",Santa Monica Civic Auditorium,"Santa Monica, California",,Opening for Be Bop Deluxe,34.0194704,-118.4912273
 "Friday, September 16, 1977",Celebrity Theatre,"Phoenix, Arizona",,Opening for Be Bop Deluxe,33.4484367,-112.0741417
-"Saturday, October 29, 1977",Yakima Valley Community College,"Yakima, Washington",,Opening for the J. Geils Band,46.601557,-120.5108421
+"Saturday, October 29, 1977",Yakima Valley Community College,"Yakima, Washington",,Opening for the J. Geils Band,46.601557,-120.510842
 "Monday, November 7, 1977",Santa Monica Civic Auditorium,"Santa Monica, California",,Opening for Nektar,34.0194704,-118.4912273
 "Monday, November 14, 1977",Agora Ballroom,"Cleveland, Ohio",,Opening for Meat Loaf,41.5051613,-81.6934446
 "Tuesday, November 15, 1977",Painesville Agora,"Painesville, Ohio",,Opening for Meat Loaf,41.7244885,-81.245657
@@ -188,8 +188,8 @@
 "Saturday, April 19, 1980",Yomiuri HallÂ ,"Tokyo, Japan",,,35.6828387,139.7594549
 "Monday, April 21, 1980",Yomiuri HallÂ ,"Tokyo, Japan",,,35.6828387,139.7594549
 "Tuesday, April 22, 1980",Yomiuri HallÂ ,"Tokyo, Japan",Setlist,,35.6828387,139.7594549
-"Saturday, April 26, 1980",Capitol Theatre,"Sydney, Australia",Review,,-33.768528,150.9568559523945
-"Sunday, April 27, 1980",Capitol Theatre,"Sydney, Australia",Review,,-33.768528,150.9568559523945
+"Saturday, April 26, 1980",Capitol Theatre,"Sydney, Australia",Review,,-33.8548157,151.2164539
+"Sunday, April 27, 1980",Capitol Theatre,"Sydney, Australia",Review,,-33.8548157,151.2164539
 "Tuesday, April 29, 1980",Festival Hall,"Brisbane, Australia",,,-27.4689682,153.0234991
 "Thursday, May 1, 1980",Palais Theatre,"Melbourne, Australia",,,-37.8142176,144.9631608
 "Friday, May 2, 1980",Palais Theatre,"Melbourne, Australia",,,-37.8142176,144.9631608
@@ -218,7 +218,7 @@
 ,,,Review,,NA,NA
 "Tuesday, July 15, 1980",Bayfront Center,"St. Petersburg, Florida",Review #1,,27.7703796,-82.6695085
 ,,,Review #2,,NA,NA
-"Friday, July 18, 1980",Hollywood Sportatorium,"Pembroke Pines, Florida",,,26.023195899999997,-80.34133114597057
+"Friday, July 18, 1980",Hollywood Sportatorium,"Pembroke Pines, Florida",,,26.0031465,-80.223937
 "July --, 1980",Orlando-Seminole Jai Alai Fronton,"Orlando, Florida",Review,,28.5421109,-81.3790304
 "Wednesday, June 10, 1981",Market Square Arena,"Indianapolis, Indiana",,,39.7683331,-86.1583502
 "Sunday, June 14, 1981","Centennial Hall, University of Toledo","Toledo, Ohio",,,41.6529143,-83.5378173
@@ -425,18 +425,18 @@
 ,Memorial Stadium,,,,NA,NA
 "Wednesday, February 5, 1986",Athletic Park,"Wellington, New ZealandÂ ",Review,,NA,NA
 "Friday, February 7, 1986",Mt. Smart Stadium,"Auckland, New Zealand",,,-36.852095,174.7631803
-"Monday, February 10, 1986",Entertainment Centre,"Sydney, Australia",,,-33.768528,150.9568559523945
-"Tuesday, February 11, 1986",Entertainment Centre,"Sydney, Australia",,Special Guest: Stevie Nicks,-33.768528,150.9568559523945
-"Wednesday, February 12, 1986",Entertainment Centre,"Sydney, Australia",,Special Guest: Stevie Nicks,-33.768528,150.9568559523945
-"Thursday, February 13, 1986",Entertainment Centre,"Sydney, Australia",,,-33.768528,150.9568559523945
+"Monday, February 10, 1986",Entertainment Centre,"Sydney, Australia",,,-33.8548157,151.2164539
+"Tuesday, February 11, 1986",Entertainment Centre,"Sydney, Australia",,Special Guest: Stevie Nicks,-33.8548157,151.2164539
+"Wednesday, February 12, 1986",Entertainment Centre,"Sydney, Australia",,Special Guest: Stevie Nicks,-33.8548157,151.2164539
+"Thursday, February 13, 1986",Entertainment Centre,"Sydney, Australia",,,-33.8548157,151.2164539
 "Saturday, February 15, 1986",Memorial Drive,"Adelaide, Australia",,,-34.9281805,138.5999312
 "Monday, February 17, 1986",Perth Entertainment Centre,"Perth, Australia",,,-31.9527121,115.8604796
 "Tuesday, February 18, 1986",Perth Entertainment Centre,"Perth, Australia",,,-31.9527121,115.8604796
 "Thursday, February 20, 1986",Kooyong Stadium,"Melbourne, Australia",Review,,-37.8142176,144.9631608
 "Friday, February 21, 1986",Kooyong Stadium,"Melbourne, Australia",,,-37.8142176,144.9631608
 "Saturday, February 22, 1986",Kooyong Stadium,"Melbourne, Australia",,,-37.8142176,144.9631608
-"Monday, February 24, 1986",Entertainment Centre,"Sydney, Australia",,,-33.768528,150.9568559523945
-"Tuesday, February 25, 1986",Entertainment Centre,"Sydney, Australia",,,-33.768528,150.9568559523945
+"Monday, February 24, 1986",Entertainment Centre,"Sydney, Australia",,,-33.8548157,151.2164539
+"Tuesday, February 25, 1986",Entertainment Centre,"Sydney, Australia",,,-33.8548157,151.2164539
 "Friday, February 28, 1986",Lang Park,"Brisbane, Australia",,,-27.4689682,153.0234991
 "Saturday, March 1, 1986",Lang Park,"Brisbane, Australia",,,-27.4689682,153.0234991
 "Wednesday, March 5, 1986",Nippon Budokan Hall,"Tokyo, Japan",,,35.6828387,139.7594549
@@ -481,8 +481,8 @@
 "Monday, July 21, 1986",Meadowlands Brendan T. Byrne Sports Arena,"East Rutherford, New JerseyÂ ",,,NA,NA
 "Tuesday, July 22, 1986",Great Woods Performing Arts CenterÂ ,"Mansfield, Massachusetts",,,42.0334326,-71.2189405
 "Thursday, July 24, 1986",Sandstone Amphitheater,"Bonner Springs, Kansas",,,39.059726,-94.8835754
-"Saturday, July 26, 1986",Red Rocks Amphitheater,"Morrison, Colorado",,,39.6535988,-105.1910996
-"Sunday, July 27, 1986",Red Rocks Amphitheater,"Morrison, Colorado",,,39.6535988,-105.1910996
+"Saturday, July 26, 1986",Red Rocks Amphitheater,"Morrison, Colorado",,,39.6422,-105.19332324506902
+"Sunday, July 27, 1986",Red Rocks Amphitheater,"Morrison, Colorado",,,39.6422,-105.19332324506902
 "Tuesday, July 29, 1986",Memorial Coliseum,"Portland, Oregon",,,45.5202471,-122.6741949
 "Thursday, July 31, 1986",Tacoma Dome,"Tacoma, Washington",,,47.2495798,-122.4398746
 "Friday, August 1, 1986",The B.C. Place,"Vancouver, British Columbia",Review,,49.2608724,-123.113952
@@ -922,8 +922,8 @@
 "Wednesday, May 9, 2001",Gill Coliseum,"Corvallis, Oregon",,,44.5645659,-123.2620435
 "Friday, May 11, 2001",Idaho Center,"Boise, Idaho",,,43.6166163,-116.200886
 "Saturday, May 12, 2001",The Gorge,"George, Washington",,,47.0807166,-119.8570901
-"Tuesday, May 15, 2001",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6535988,-105.1910996
-"Wednesday, May 16, 2001",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6535988,-105.1910996
+"Tuesday, May 15, 2001",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6422,-105.19332324506902
+"Wednesday, May 16, 2001",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6422,-105.19332324506902
 "Friday, May 18, 2001",Cynthia Woods Mitchell Pavilion,"The Woodlands, Texas",,,30.1734194,-95.504686
 "Saturday, May 19, 2001",Verizon Wireless Amphitheatre,"San Antonio, Texas",,,29.4246002,-98.4951405
 "Monday, May 21, 2001",Smirnoff Music Centre,"Dallas, Texas",,,32.7762719,-96.7968559
@@ -973,8 +973,8 @@
 "Wednesday, August 14, 2002",Verizon Wireless Music Center,"Noblesville, Indiana",,,40.0455918,-86.0085955
 "Friday, August 16, 2002",Sandstone Amphitheater,"Bonner Springs, Kansas",,,39.059726,-94.8835754
 "Saturday, August 17, 2002",UMB Bank Pavilion,"Maryland Heights, Missouri",,,38.7150511,-90.435999
-"Monday, August 19, 2002",Red Rocks Amphitheater,"Morrison, Colorado",,,39.6535988,-105.1910996
-"Tuesday, August 20, 2002",Red Rocks Amphitheater,"Morrison, Colorado",,,39.6535988,-105.1910996
+"Monday, August 19, 2002",Red Rocks Amphitheater,"Morrison, Colorado",,,39.6422,-105.19332324506902
+"Tuesday, August 20, 2002",Red Rocks Amphitheater,"Morrison, Colorado",,,39.6422,-105.19332324506902
 "Thursday, August 22, 2002",Journal Pavilion,"Albuquerque, New Mexico",,,35.212870949999996,-106.71324849574629
 "Saturday, August 24, 2002",Glen Helen Blockbuster Pavilion,"Devore, California",,,34.2163964,-117.4014365
 "Sunday, August 25, 2002",Coors Amphitheater,"Chula Vista, California",,,32.6400541,-117.0841955
@@ -1074,7 +1074,7 @@
 "Saturday, August 13, 2005",Dodge Theatre,"Phoenix, Arizona",,,33.4484367,-112.0741417
 "Sunday, August 14, 2005",Verizon Wireless Amphitheatre,"Irvine, California",,,33.6856969,-117.8259819
 "Tuesday, August 16, 2005",The Joint,"Las Vegas, Nevada",,,36.1672559,-115.148516
-"Thursday, August 18, 2005",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6535988,-105.1910996
+"Thursday, August 18, 2005",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6422,-105.19332324506902
 "Friday, August 19, 2005",The Cricket Pavilion,"Phoenix, Arizona",,,33.4484367,-112.0741417
 "Saturday, August 20, 2005",Coors Amphitheater,"San Diego, California",,,32.7174202,-117.1627728
 "Sunday, August 21, 2005",Hyundai Pavilion,"Devore, California",,,34.2163964,-117.4014365
@@ -1082,8 +1082,8 @@
 "Wednesday, August 24, 2005",Sleep Train Amphitheater,"Sacramento, California",,,38.5810606,-121.493895
 "Friday, August 26, 2005",Greek Theatre,"Berkeley, California",,,37.8753497,-122.23963364918777
 "Saturday, August 27, 2005",Greek Theatre,"Berkeley, California",,,37.8753497,-122.23963364918777
-"Tuesday, August 30, 2005",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6535988,-105.1910996
-"Wednesday, August 31, 2005",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6535988,-105.1910996
+"Tuesday, August 30, 2005",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6422,-105.19332324506902
+"Wednesday, August 31, 2005",Red Rocks Amphitheatre,"Morrison, Colorado",,,39.6422,-105.19332324506902
 "Friday, September 2, 2005",The Gorge,"George, Washington",,,47.0807166,-119.8570901
 "Saturday, September 3, 2005",The Gorge,"George, Washington",,,47.0807166,-119.8570901
 "Friday, June 9, 2006",Verizon Amphitheatre,"Charlotte, North Carolina",,,35.2272086,-80.8430827
@@ -1114,7 +1114,7 @@
 "Tuesday, August 15, 2006",Darien Lake Performing Arts Center,"Darien Lake, New York",,,42.93194285,-78.38793960854856
 "Wednesday, August 16, 2006",Post-Gazette Pavilion,"Burgettstown, Pennsylvania",,,40.3820133,-80.3928423
 "Friday, August 18, 2006",Tweeter Center,"Camden, New Jersey",,,39.9448402,-75.1198911
-"Saturday, August 19, 2006",Amsterjam,"Randall's Island, New York",,,40.7950821,-73.9199154
+"Saturday, August 19, 2006",Amsterjam,"Randall's Island, New York",,,40.7975383,-73.9166611
 "Friday, September 8, 2006",Molson Amphitheater,"Toronto, Ontario",,,43.6534817,-79.3839347
 "Sunday, September 10, 2006",Alltel Pavilion,"Raleigh, North Carolina",,,35.7803977,-78.6390989
 "Tuesday, September 12, 2006",Alliant Energy Center,"Madison, Wisconsin",,,43.074761,-89.3837613
@@ -1348,9 +1348,9 @@
 "Thursday, September 25, 2014",Toyota Center,"Houston, Texas",Setlist,,29.7589382,-95.3676974
 "Friday, September 26, 2014",American Airlines Center,"Dallas, Texas",Setlist,,32.7762719,-96.7968559
 "Sunday, September 28, 2014",BOK Center,"Tulsa, Oklahoma",Setlist,,36.1556805,-95.9929113
-"Tuesday, September 30, 2014",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,,39.6535988,-105.1910996
-"Wednesday, October 1, 2014",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,Special Guest:Â Steve Winwood,39.6535988,-105.1910996
-"Friday, October 3, 2014",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,,39.6535988,-105.1910996
+"Tuesday, September 30, 2014",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,,39.6422,-105.19332324506902
+"Wednesday, October 1, 2014",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,Special Guest:Â Steve Winwood,39.6422,-105.19332324506902
+"Friday, October 3, 2014",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,,39.6422,-105.19332324506902
 "Sunday, October 5, 2014",SAP Center,"San Jose, California",Setlist,,37.3361905,-121.890583
 "Tuesday, October 7, 2014",Honda Center,"Anaheim, California",Setlist,,33.8347516,-117.911732
 "Friday, October 10, 2014",The Forum,"Los Angeles, California",Setlist,,34.0536909,-118.242766
@@ -1392,8 +1392,8 @@
 "Friday, May 12, 2017",Scottrade Center,"St. Louis, Missouri",Setlist,,38.6529545,-90.24111656024635
 "Saturday, May 13, 2017",Klipsch Music Center,"Noblesville, Indiana",Setlist,,40.0455918,-86.0085955
 "Saturday, May 27, 2017",BottleRock,"Napa, California",Setlist,,38.2971367,-122.2855293
-"Monday, May 29, 2017",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,,39.6535988,-105.1910996
-"Tuesday, May 30, 2017",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,,39.6535988,-105.1910996
+"Monday, May 29, 2017",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,,39.6422,-105.19332324506902
+"Tuesday, May 30, 2017",Red Rocks Amphitheatre,"Morrison, Colorado",Setlist,,39.6422,-105.19332324506902
 "Friday, June 2, 2017",Sprint Center,"Kansas City, Missouri",Setlist,,39.100105,-94.5781416
 "Saturday, June 3, 2017",Xcel Energy Center,"St. Paul, Minnesota",Setlist,,44.9497487,-93.0931028
 "Monday, June 5, 2017",Wells Fargo Arena,"Des Moines, Iowa",Setlist,,41.5910323,-93.6046655
