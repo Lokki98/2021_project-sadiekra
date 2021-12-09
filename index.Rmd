@@ -19,7 +19,7 @@ Questions to be addressed:
 * Where has the band toured?
 * What are the top 5 places they have toured?
 
-# Materials and Methods
+# Materials and Methods 
 Using the Spotify API, I will be accessing the spotify database to get information about the band. Because Tom Petty produced music both with the band, and as a solo artist, it's important to note that this is not a comprehensive analysis of his music. This is only a look into the music produced as a band. The artist that is being referred to within the database is "Tom Petty and the Heartbreakers." Solo work can be found using the artist name "Tom Petty." All needed artist data will be accessed through this API including the following variables and information: artist name, album name, release date, danceability, valence (positivity), and lyrics.
 
 The Spotifyr package allows you to access and analyze variables included in the API with specific functions. I will be using this package, along with the igraph and ggraph packages to answer the questions listed in the introduction. The graph packages allow users to create graphs from data frames and visualize it in many forms. The graphs that will specifically be shown are dendrograms because they can display a hierarchy of information. The hierarchy will be helpful in showing most often used lyrics per album. I will also be using ggplot2 to show the danceability and positivity of the band's music.
@@ -78,7 +78,7 @@ petty_albums <- get_artist_albums(
 
 ```
 ## Band Specifics
-### Number of Albums Released
+### Number of Albums Released 
 ```{r}
 album_filter <- petty_albums%>%
   filter(name!= c("Mojo Tour Edition", "Hard Promises (Reissue Remastered)", 
@@ -94,7 +94,7 @@ number_albums <- count(album_filter)
 number_albums
 ```
 
-### Danceability
+### Danceability 
 ```{r}
 var_width = 20
 
