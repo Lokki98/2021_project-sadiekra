@@ -116,6 +116,7 @@ album_dance <- ggplot(petty_filter, aes(x=danceability, fill=album_wrap,
     facet_wrap(~ album_wrap)
 album_dance
 ```
+
 "Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable." (Plantinga, 2018). This one surprised me most because I expected "Damn The Torpedoes" to have the highest danceability. This album was a breakthrough album with many upbeat, well-known songs. But looking at this, it seems like "She's the One" and "Hypnotic Eye" have the highest throughout their albums. This reinforces the idea that there is more to songs than just being a fun or upbeat sound.
 
 ### Valence
@@ -180,7 +181,7 @@ touring_geo=read_csv("data/touring_geo.csv")
 map_tour <- leaflet(touring_geo) %>%
   addProviderTiles("CartoDB.Positron") %>%
   addCircleMarkers(radius = 1, popup = touring_geo$City,
-                   color = "#7625be")
+                   color = "#7625be", clusterOptions = markerClusterOptions())
 map_tour
 ```
 

@@ -51,7 +51,7 @@ touring_geo=read_csv("data/touring_geo.csv")
 map_tour <- leaflet(touring_geo) %>%
   addProviderTiles("CartoDB.Positron") %>%
   addCircleMarkers(radius = 1, popup = touring_geo$City,
-                   color = "#7625be")
+                   color = "#7625be", clusterOptions = markerClusterOptions())
 map_tour
 
 #Find the top 5 most visited cities
