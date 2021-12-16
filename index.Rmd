@@ -1,5 +1,5 @@
 ---
-title: "Visualizing the Music of Tom Petty and the Heartbreakers Using R"
+title: "Visualizing the Music of Tom Petty and the Heartbreakers Using R" 
 subtitle: GEO 511
 author: Sadie Kratt
 output:
